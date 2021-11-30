@@ -1,0 +1,55 @@
+.popular {
+    display: grid;
+    grid-template-areas:
+    'italy brazil america'
+    'nepal maldives indonesia';
+}
+
+.popular-bg-1 {
+    background-image: url(../img/destination/italy.png);
+    grid-area: italy;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+
+}
+
+.popular-bg-2 {
+    background-image: url(../img/destination/brazil.png);
+    grid-area: brazil;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+.popular-bg-3 {
+    background-image: url(../img/destination/america.png);
+    grid-area: america;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+.popular-bg-4 {
+    background-image: url(../img/destination/nepal.png);
+    grid-area: nepal;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+.popular-bg-5 {
+    background-image: url(../img/destination/maldives.png);
+    grid-area: maldives;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+.popular-bg-6 {
+    background-image: url(../img/destination/indonesia.png);
+    grid-area: indonesia;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
